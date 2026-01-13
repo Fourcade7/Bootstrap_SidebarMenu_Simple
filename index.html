@@ -10,8 +10,9 @@
 </head>
 <body>
   <div class="sidebar" id="sidebar">
+     <!-- sidebar ichi bo‘sh -->
     <button class="toggle-btn" id="toggleBtn">☰</button>
-    <!-- sidebar ichi bo‘sh -->
+   
     <div class="menu">
       <div class="menu-item" id="menuToggle">
       Menu ▾
@@ -22,14 +23,28 @@
       <a href="#">Item 3</a>
       </div>
       </div>
-    <h1 class="text-black">text2</h1>
-  </div>
-
-  <div class="content">
-    <div class="d-flex">
-      <h1 class="ms-auto">text</h1>
+      <div class="list-group list-group-flush">
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Dashboard</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Shortcuts</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Overview</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Events</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Profile</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Status</a>
     </div>
-    <h1>text2</h1>
+  </div>
+  <!-- content -->
+  <div class="content">
+    <div class="container-fluid">
+      <h1 class="mt-4">Simple Sidebar</h1>
+      <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+      <p>
+          Make sure to keep all page content within the
+          <code>#page-content-wrapper</code>
+          . The top navbar is optional, and just for demonstration. Just create an element with the
+          <code>#sidebarToggle</code>
+          ID which will toggle the menu when clicked.
+      </p>
+  </div>
   </div>
 
   <script src="script.js"></script>

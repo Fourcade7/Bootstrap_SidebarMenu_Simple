@@ -12,7 +12,7 @@ body {
 }
 
 .sidebar {
-  width: 420px;
+  width: 220px;
   background: #222;
   color: #fff;
   transition: width 0.3s;
